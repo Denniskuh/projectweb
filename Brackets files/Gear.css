@@ -281,4 +281,10 @@ footer p, footer a{
     } 
     .footerTekst p{
         font-size: 10%
-    }    
+    } 
+    
+}
+    
+    @-ms-viewport{
+      width: device-width;
+    }
