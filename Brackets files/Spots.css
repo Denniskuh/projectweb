@@ -1,0 +1,280 @@
+body{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0 auto;
+    background-image: url(Images/kwazulu-natal-durban.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#wrapper{
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+header h1{    
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px cyan solid;
+    background: cyan;
+    text-align: center;
+    padding: 0.625rem 0;
+    width: 100%;
+    color: white;
+    font-size: 5rem;
+}
+
+nav{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav ul{
+    display:flex; 
+    margin: 0;
+    padding-left: 0;
+}
+
+nav li, nav a{  
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5625rem;
+    font-weight: bold;
+}
+
+nav li:hover{
+    border: 1px black solid;
+    background-color: cyan;
+    color: white;
+}
+
+nav li{
+    border: 1px white solid;
+    background-color: cyan;
+    color: white;
+    padding: 0.625rem 5.5rem;
+}
+
+nav a{
+    color: white;
+}
+
+nav li.active a, nav li.active{
+    color: black;
+    background-color: white;
+}
+
+nav li:hover, nav li:hover a{
+    color: black;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    margin: 0 auto;
+    font-family: "Hyphen Press", sans-serif;
+    width: 100%;
+}
+
+footer{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.1875rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.875rem 0;
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+}
+
+main h2{
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+}
+
+.Central{
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+}
+
+.Central section{
+    padding: 0 1.25rem;
+}
+
+.Central label{
+    font-weight: bold;
+}
+
+.gear{
+    width: 27.78%;
+    margin-top: 0;
+}
+
+.examples{
+    width: 66.67%;
+    margin-top: 0;
+}
+
+.examples h5{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.star1{
+    margin-left: -1.875rem;
+}
+
+.star2{
+    margin-left: -2.8125rem;
+}
+
+.images img{
+    display: block;
+    padding: 1.25rem;
+}
+
+.images article {
+    display:flex;
+    padding: 1.25rem;
+}
+
+.spot, .address, .description, .spot input, .address input, .description textarea{
+    font-weight: bold;
+    margin: 0.625rem 0;
+}
+
+.spot input, .address input{
+    width: 121.5%;
+}
+
+.why h2{
+    padding-left: 1.875rem;
+}
+
+.why p{
+    width: 77.78%;
+    padding: 1.875rem;
+    margin-bottom: 0;
+}
+
+.versturen input{
+    font-weight: bold;
+    border: 1px black solid;
+    background-color: black;
+    padding: 0.625rem 1.25rem;
+    color: white;
+    font-size: 1.05em;
+    margin-left: 1.25rem;
+}
+
+footer{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footerTekst ul{
+    display: flex;    
+}
+
+footer p, footer a{
+    margin: 0 0 0 1.875rem; 
+    text-decoration: none;
+}
+
+.footerr{
+        background-color: black;
+}
+
+@media screen and (max-width:899px){
+    #wrapper{
+        width: 100%;
+    } 
+    .examples{
+        width: 100%;
+    }
+    
+    .examples article{
+        display: block;
+    }
+    
+    .gear h2{
+        width: 300%;
+    }
+    .picture img{
+        width: 100%;
+    }    
+    .spot input, .address input{
+        width: 325%;
+    }
+    .Central{
+        display: block;
+    }
+    .Central ul{
+        width: 100%;
+    }
+    nav ul{
+        display: block;
+        width: 100%;
+    }       
+    
+    .footerTekst p{
+        font-size: 90%;
+    }
+    
+    .footerTekst ul{
+        display: block;
+    }
+    
+    .tekst1 p{
+        margin-left: 22.5%;
+    }
+    .tekst2 p{
+        margin-left: 2%;
+    }
+    .tekst3 p{
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width:640px){
+    nav ul{
+        display: block;
+        width: 100%;
+    }
+     header h1{
+        font-size: 400%;
+    }    
+    .footerTekst p{
+        font-size: 90%;
+    }  
+    .footerTekst ul{
+        display: block;
+    }
+}
+
+@media screen and (max-width:320px){
+    #wrapper{
+        width: 320px;
+    }
+    /*the ite can't get any smaller than 320pixels*/
+    nav ul{
+        display: block;
+    } 
+    .footerTekst p{
+        font-size: 10%
+    }    
